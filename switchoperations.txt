@@ -29,7 +29,8 @@ if(a!=2){
 //case 4: pallindrome->kabir
 switch(ch)
 {
-
+case 4:
+{
 while (n != 0) {
         remainder = n % 10;
         reversed = reversed * 10 + remainder;
@@ -45,7 +46,8 @@ while (n != 0) {
 
 }
 
-return 0;
 
 }
 
+return 0;
+}

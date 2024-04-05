@@ -12,10 +12,20 @@ scanf("%d",&ch);
 
 //case 1: check prime ->jiyansh
 
+int a = 1;
+for(int i=2;i<n; i+=n){
+    if(n%i==0){
+        printf("IT IS NOT A PRIME NIUMBER");
+        a=2;
+    }
+}
+if(a!=2){
+    printf("IT IS A PRIME");
+}
+
 //case 2: check armstrong->padam
 
 //case 3: reverse->lokesh
-
 //case 4: pallindrome->kabir
 switch(ch)
 {
@@ -75,14 +85,21 @@ while (n != 0) {
     if (original == reversed)
         printf("%d is a palindrome.", original);
     else
-        printf("%d is not a palindrome.", original);
-   
-
+        printf("%d is not a palindrome.", original)
 }
+<<<<<<< HEAD
+//case 4: pallindrome->kabir
 
-
+case 3:
+{
+int main() {
+while (num !=0){
+remainder = num % 10;
+reversedNum = reversedNum * 10 + reamainder;
+num /= 10;
 }
-
+printf("Reversed number : %d\n" , reversedNum);
+}
 return 0;
 
 }

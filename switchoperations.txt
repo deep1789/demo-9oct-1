@@ -11,6 +11,18 @@ printf("Enter your choice");
 scanf("%d",&ch);
 
 //case 1: check prime ->jiyansh
+
+int a = 1;
+for(int i=2;i<n; i+=n){
+    if(n%i==0){
+        printf("IT IS NOT A PRIME NIUMBER");
+        a=2;
+    }
+}
+if(a!=2){
+    printf("IT IS A PRIME");
+}
+
 //case 2: check armstrong->padam
 //case 3: reverse->lokesh
 

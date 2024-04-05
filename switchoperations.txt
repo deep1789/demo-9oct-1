@@ -1,0 +1,6 @@
+#include<stdio.h>
+N is entered
+//case 1: check prime ->jiyansh
+//case 2: check armstrong->padam
+//case 3: reverse->lokesh
+//case 4: pallindrome->kabir
